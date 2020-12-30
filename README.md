@@ -214,7 +214,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
   div[ style "position" "absolute" --動かす場所の大きさ（ウィンドウの長さ）
-    ,style "background-color" "white"
+    ,style "background-color" "black"
     ,style "height" "100vh"
     ,style "width" "100vh"
     , on "mosuemove" (map2 Move(field "clientX" int)(field "clientY" int))
