@@ -234,6 +234,7 @@ view model =
   ]
 ```
 ![](https://i.imgur.com/kxdcViX.png)
+<br>
 図形をドラッグ＆ドロップできるようになったがドラッグすると図形の角を持ってしまう。
 offsetを使って改善してみる。
 # 5週目
